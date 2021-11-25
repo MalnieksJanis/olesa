@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(255, 250, 250);
+  height: 100vh;
+}
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#navbarNav {
+  background-color: rgb(159, 123, 91);
+  height: 50px;
+
+}
+#nav {
+    padding: 0;
+    z-index: 1;
+}
+
+div.container-fluid{
+  position: relative;
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+li{
+  font-family: garamond;
+  }
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 250, 250);
+  font-family: garamond;
+}
+ul{
+  background-color: rgb(159, 123, 91);
+  height: 50px;
+  width: 100vw;
+  justify-content: center;
+
+}
+
+.logo{
+  margin-top: 20px;
+  }
+.sidenav{
+  height: 90vh;
+
+}
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+#jaunumi{
+  position: absolute;
+  height: 100vh;
+  top: 50vh;
+}
